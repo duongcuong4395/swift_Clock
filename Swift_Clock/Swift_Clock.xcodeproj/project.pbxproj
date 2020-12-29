@@ -13,6 +13,7 @@
 		0C0C4195259B686000DAF5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C4193259B686000DAF5A7 /* Main.storyboard */; };
 		0C0C4197259B686100DAF5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C4196259B686100DAF5A7 /* Assets.xcassets */; };
 		0C0C419A259B686100DAF5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C4198259B686100DAF5A7 /* LaunchScreen.storyboard */; };
+		C017C29C579F4F094024C181 /* Pods_Swift_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC75C0685DCA2A56B6251FE4 /* Pods_Swift_Clock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		0C0C4196259B686100DAF5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0C4199259B686100DAF5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0C419B259B686100DAF5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		477E2BAB12FD7D1E90D6D837 /* Pods-Swift_Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_Clock.debug.xcconfig"; path = "Target Support Files/Pods-Swift_Clock/Pods-Swift_Clock.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF7FA9C6D2141A828BFB2E9 /* Pods-Swift_Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_Clock.release.xcconfig"; path = "Target Support Files/Pods-Swift_Clock/Pods-Swift_Clock.release.xcconfig"; sourceTree = "<group>"; };
+		DC75C0685DCA2A56B6251FE4 /* Pods_Swift_Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017C29C579F4F094024C181 /* Pods_Swift_Clock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0824ED9B7ED498074061F072 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				477E2BAB12FD7D1E90D6D837 /* Pods-Swift_Clock.debug.xcconfig */,
+				5BF7FA9C6D2141A828BFB2E9 /* Pods-Swift_Clock.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0C0C4181259B686000DAF5A7 = {
 			isa = PBXGroup;
 			children = (
 				0C0C418C259B686000DAF5A7 /* Swift_Clock */,
 				0C0C418B259B686000DAF5A7 /* Products */,
+				0824ED9B7ED498074061F072 /* Pods */,
+				301C6E7673B0DD7DEC519030 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = Swift_Clock;
 			sourceTree = "<group>";
 		};
+		301C6E7673B0DD7DEC519030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC75C0685DCA2A56B6251FE4 /* Pods_Swift_Clock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0C419E259B686100DAF5A7 /* Build configuration list for PBXNativeTarget "Swift_Clock" */;
 			buildPhases = (
+				AAE7F841B2DE0EC76233B88D /* [CP] Check Pods Manifest.lock */,
 				0C0C4186259B686000DAF5A7 /* Sources */,
 				0C0C4187259B686000DAF5A7 /* Frameworks */,
 				0C0C4188259B686000DAF5A7 /* Resources */,
+				E3352981B84A73F26D5CA244 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAE7F841B2DE0EC76233B88D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift_Clock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3352981B84A73F26D5CA244 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift_Clock/Pods-Swift_Clock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift_Clock/Pods-Swift_Clock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift_Clock/Pods-Swift_Clock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C0C4186259B686000DAF5A7 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		0C0C419F259B686100DAF5A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 477E2BAB12FD7D1E90D6D837 /* Pods-Swift_Clock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		0C0C41A0259B686100DAF5A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BF7FA9C6D2141A828BFB2E9 /* Pods-Swift_Clock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
