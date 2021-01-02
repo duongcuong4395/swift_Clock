@@ -7,3 +7,34 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct TabContainerView: View {
+    @State private var tabContainerViewModel = TabContainerViewModel()
+    
+    var body: some View{
+        TabView(selection: $tabContainerViewModel.selectedTab) {
+            ForEach(tabContainerViewModel.TabContainerModels, id: \.self) { viewModel in
+                self.tabView(for: viewModel.type)
+                    .tabItem{
+                        Image(systemName: viewModel.imageName)
+                        Text(viewModel.title)
+                }.tag(viewModel.type)
+            }
+        }.accentColor(.primary)
+    }
+    
+    @ViewBuilder
+    func tabView(for tabItemType: TabContainerModel.TabItemType) -> some View {
+        switch tabItemType {
+        case .log:
+            Text("Log")
+        case .challengeList:
+            Text("challenge List")
+        case .setting:
+            Text("Setting")
+        default:
+            Text("Default")
+        }
+    }
+}

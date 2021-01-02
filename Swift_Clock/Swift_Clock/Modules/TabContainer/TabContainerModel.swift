@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct TabContainerModel : Hashable {
+    let imageName: String
+    let title: String
+    let type: TabItemType
+    
+    enum TabItemType {
+        case log
+        case challengeList
+        case setting
+    }
+}

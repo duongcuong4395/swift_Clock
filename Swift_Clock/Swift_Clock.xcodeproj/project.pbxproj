@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		0C0C4195259B686000DAF5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C4193259B686000DAF5A7 /* Main.storyboard */; };
 		0C0C4197259B686100DAF5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C4196259B686100DAF5A7 /* Assets.xcassets */; };
 		0C0C419A259B686100DAF5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C4198259B686100DAF5A7 /* LaunchScreen.storyboard */; };
+		0C0C41A8259B723C00DAF5A7 /* TabContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C41A7259B723C00DAF5A7 /* TabContainerView.swift */; };
+		0C0C41AA259B725A00DAF5A7 /* TabContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C41A9259B725A00DAF5A7 /* TabContainerViewModel.swift */; };
+		0C0C41AC259B727400DAF5A7 /* TabContainerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C41AB259B727400DAF5A7 /* TabContainerModel.swift */; };
+		0C0C41AE259B88EA00DAF5A7 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C41AD259B88EA00DAF5A7 /* Themes.swift */; };
+		0C0C41B0259B88FC00DAF5A7 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C41AF259B88FC00DAF5A7 /* Resource.swift */; };
+		0C0C41B2259B894300DAF5A7 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C41B1259B894300DAF5A7 /* Dimension.swift */; };
+		0CC92A59259CB0FA005E8168 /* WorldClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC92A58259CB0FA005E8168 /* WorldClockModel.swift */; };
+		0CC92A5B259CB107005E8168 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC92A5A259CB107005E8168 /* WorldClockView.swift */; };
+		0CC92A5D259CB11F005E8168 /* WorldClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC92A5C259CB11F005E8168 /* WorldClockViewModel.swift */; };
 		C017C29C579F4F094024C181 /* Pods_Swift_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC75C0685DCA2A56B6251FE4 /* Pods_Swift_Clock.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +34,15 @@
 		0C0C4196259B686100DAF5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0C4199259B686100DAF5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0C419B259B686100DAF5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0C41A7259B723C00DAF5A7 /* TabContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainerView.swift; sourceTree = "<group>"; };
+		0C0C41A9259B725A00DAF5A7 /* TabContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainerViewModel.swift; sourceTree = "<group>"; };
+		0C0C41AB259B727400DAF5A7 /* TabContainerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainerModel.swift; sourceTree = "<group>"; };
+		0C0C41AD259B88EA00DAF5A7 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		0C0C41AF259B88FC00DAF5A7 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		0C0C41B1259B894300DAF5A7 /* Dimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		0CC92A58259CB0FA005E8168 /* WorldClockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockModel.swift; sourceTree = "<group>"; };
+		0CC92A5A259CB107005E8168 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		0CC92A5C259CB11F005E8168 /* WorldClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewModel.swift; sourceTree = "<group>"; };
 		477E2BAB12FD7D1E90D6D837 /* Pods-Swift_Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_Clock.debug.xcconfig"; path = "Target Support Files/Pods-Swift_Clock/Pods-Swift_Clock.debug.xcconfig"; sourceTree = "<group>"; };
 		5BF7FA9C6D2141A828BFB2E9 /* Pods-Swift_Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_Clock.release.xcconfig"; path = "Target Support Files/Pods-Swift_Clock/Pods-Swift_Clock.release.xcconfig"; sourceTree = "<group>"; };
 		DC75C0685DCA2A56B6251FE4 /* Pods_Swift_Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +66,6 @@
 				477E2BAB12FD7D1E90D6D837 /* Pods-Swift_Clock.debug.xcconfig */,
 				5BF7FA9C6D2141A828BFB2E9 /* Pods-Swift_Clock.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +90,9 @@
 		0C0C418C259B686000DAF5A7 /* Swift_Clock */ = {
 			isa = PBXGroup;
 			children = (
+				0C0C41A3259B6FCD00DAF5A7 /* Supports */,
+				0C0C41A2259B6F2500DAF5A7 /* Modules */,
+				0C0C41A1259B6EF900DAF5A7 /* Common */,
 				0C0C418D259B686000DAF5A7 /* AppDelegate.swift */,
 				0C0C418F259B686000DAF5A7 /* SceneDelegate.swift */,
 				0C0C4191259B686000DAF5A7 /* ViewController.swift */,
@@ -82,6 +102,68 @@
 				0C0C419B259B686100DAF5A7 /* Info.plist */,
 			);
 			path = Swift_Clock;
+			sourceTree = "<group>";
+		};
+		0C0C41A1259B6EF900DAF5A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C41A5259B6FF400DAF5A7 /* Base */,
+				0C0C41A4259B6FE900DAF5A7 /* Style */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0C0C41A2259B6F2500DAF5A7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0CC92A57259CB0B3005E8168 /* WorldClock */,
+				0C0C41A6259B720300DAF5A7 /* TabContainer */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0C0C41A3259B6FCD00DAF5A7 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		0C0C41A4259B6FE900DAF5A7 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C41AD259B88EA00DAF5A7 /* Themes.swift */,
+				0C0C41AF259B88FC00DAF5A7 /* Resource.swift */,
+				0C0C41B1259B894300DAF5A7 /* Dimension.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		0C0C41A5259B6FF400DAF5A7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0C0C41A6259B720300DAF5A7 /* TabContainer */ = {
+			isa = PBXGroup;
+			children = (
+				0C0C41A7259B723C00DAF5A7 /* TabContainerView.swift */,
+				0C0C41A9259B725A00DAF5A7 /* TabContainerViewModel.swift */,
+				0C0C41AB259B727400DAF5A7 /* TabContainerModel.swift */,
+			);
+			path = TabContainer;
+			sourceTree = "<group>";
+		};
+		0CC92A57259CB0B3005E8168 /* WorldClock */ = {
+			isa = PBXGroup;
+			children = (
+				0CC92A58259CB0FA005E8168 /* WorldClockModel.swift */,
+				0CC92A5A259CB107005E8168 /* WorldClockView.swift */,
+				0CC92A5C259CB11F005E8168 /* WorldClockViewModel.swift */,
+			);
+			path = WorldClock;
 			sourceTree = "<group>";
 		};
 		301C6E7673B0DD7DEC519030 /* Frameworks */ = {
@@ -207,8 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0C41AE259B88EA00DAF5A7 /* Themes.swift in Sources */,
+				0CC92A5B259CB107005E8168 /* WorldClockView.swift in Sources */,
+				0CC92A59259CB0FA005E8168 /* WorldClockModel.swift in Sources */,
+				0C0C41B0259B88FC00DAF5A7 /* Resource.swift in Sources */,
+				0C0C41B2259B894300DAF5A7 /* Dimension.swift in Sources */,
 				0C0C4192259B686000DAF5A7 /* ViewController.swift in Sources */,
 				0C0C418E259B686000DAF5A7 /* AppDelegate.swift in Sources */,
+				0C0C41AA259B725A00DAF5A7 /* TabContainerViewModel.swift in Sources */,
+				0CC92A5D259CB11F005E8168 /* WorldClockViewModel.swift in Sources */,
+				0C0C41AC259B727400DAF5A7 /* TabContainerModel.swift in Sources */,
+				0C0C41A8259B723C00DAF5A7 /* TabContainerView.swift in Sources */,
 				0C0C4190259B686000DAF5A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

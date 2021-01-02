@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+
+final class TabContainerViewModel: ObservableObject {
+    @Published var selectedTab: TabContainerModel.TabItemType = .challengeList
+    
+    let TabContainerModels = [
+        TabContainerModel(imageName: "World_Clock", title: Resource.Title.tabContainer.worldClock, type: .log),
+        .init(imageName: "Alarm", title: Resource.Title.tabContainer.Alarm, type: .challengeList),
+        .init(imageName: "BedTime", title: Resource.Title.tabContainer.BedTime, type: .setting)
+    ]
+}
