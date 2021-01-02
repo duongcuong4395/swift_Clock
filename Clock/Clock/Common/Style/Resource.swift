@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+public class Resource {
+    public class Tab {
+        public static var WorldClock: UIImage! = UIImage(named: "worldClock")
+        public static var Alarm: UIImage! = UIImage(named: "Alarm")
+        public static var BedTime: UIImage! = UIImage(named: "Bedtime")
+        public static var Timer: UIImage! = UIImage(named: "Timer")
+        public static var StopWatch: UIImage! = UIImage(named: "Stopwatch")
+    }
+}

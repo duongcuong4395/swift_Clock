@@ -7,3 +7,22 @@
 //
 
 import Foundation
+import UIKit
+
+class AlarmView: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //self.view.backgroundColor = .red
+        self.title = Title.Tab.Alarm
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+        // disponse of any resource that can be recreated
+    }
+}
+
+

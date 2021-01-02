@@ -7,3 +7,33 @@
 //
 
 import Foundation
+import UIKit
+
+class TabContainerView: UITabBarController, UITabBarControllerDelegate {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.delegate = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // create tab World Clock
+        let tabWorldClock = WorldClockView()
+        let tabWorldClockItem = UITabBarItem(title: Title.Tab.worldClock, image: Resource.Tab.WorldClock, selectedImage: Resource.Tab.WorldClock)
+        tabWorldClock.tabBarItem = tabWorldClockItem
+        
+        // Create tab Alarm
+        let tabAlarm = AlarmView()
+        let tabAlarmItem = UITabBarItem(title: Title.Tab.Alarm, image: Resource.Tab.Alarm, selectedImage: Resource.Tab.Alarm)
+        tabAlarm.tabBarItem = tabAlarmItem
+        
+        self.viewControllers = [tabWorldClock, tabAlarm]
+    }
+    
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        print("Tab selected: \(tabBarController.selectedIndex)")
+    }
+}

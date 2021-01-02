@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+import Foundation
+
+public class Title {
+    public class Tab {
+        public static var worldClock = "World Clock"
+        public static var Alarm = "Alarm"
+        public static var BedTime = "Bedtime"
+        public static var Timer = "Timer"
+        public static var StopWatch = "Stopwatch"
+    }
+}
