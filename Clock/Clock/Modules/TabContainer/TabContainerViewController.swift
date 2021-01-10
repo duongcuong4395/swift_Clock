@@ -21,9 +21,10 @@ class TabContainerView: UITabBarController, UITabBarControllerDelegate {
         super.viewWillAppear(animated)
         
         // create tab World Clock
-        let tabWorldClock = WorldClockView()
+        let tabWorldClock = WorldClockViewController()
         let tabWorldClockItem = UITabBarItem(title: Title.Tab.worldClock, image: Resource.Tab.WorldClock, selectedImage: Resource.Tab.WorldClock)
         tabWorldClock.tabBarItem = tabWorldClockItem
+        
         
         // Create tab Alarm
         let tabAlarm = AlarmView()
