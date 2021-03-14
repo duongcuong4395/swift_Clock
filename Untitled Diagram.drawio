@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T06:18:16.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.4.8" etag="pofgky5ld9IXfceZzffX" type="github"><diagram id="DGaI7L7fWnckIXQNMXlM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-14T06:19:58.902Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="2K1EbB_PZp5HphmMTYWT" version="14.4.8" type="github">
+  <diagram id="DGaI7L7fWnckIXQNMXlM" name="Page-1">
+    <mxGraphModel dx="950" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6cRro7XXUoIkanzyYa3W-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios.iPhone;bgStyle=bgGreen;fillColor=#aaaaaa;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6cRro7XXUoIkanzyYa3W-22" target="6cRro7XXUoIkanzyYa3W-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-22" value="&lt;font style=&quot;font-size: 9px&quot;&gt;World Clock&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6cRro7XXUoIkanzyYa3W-24" target="6cRro7XXUoIkanzyYa3W-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-24" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Alarm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6cRro7XXUoIkanzyYa3W-26" target="6cRro7XXUoIkanzyYa3W-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-26" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Stopwatch&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6cRro7XXUoIkanzyYa3W-28" target="6cRro7XXUoIkanzyYa3W-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-28" value="&lt;font style=&quot;font-size: 9px&quot;&gt;Timer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-29" value="List VIew Follow Tab" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/world-128.png" vertex="1" parent="1">
+          <mxGeometry x="219" y="254" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-31" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/wirecons-free-vector-icons/32/475340-alarm-clock-128.png" vertex="1" parent="1">
+          <mxGeometry x="280" y="254" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-32" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/37.Stopwatch-128.png" vertex="1" parent="1">
+          <mxGeometry x="338" y="254" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-33" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/timer-128.png" vertex="1" parent="1">
+          <mxGeometry x="400" y="254" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-34" value="View&lt;br&gt;WorldClock_UIController" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="448" y="540" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-35" value="View&lt;br&gt;Timer_UIController" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-36" value="View&lt;br&gt;Stopwatch_UIController" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-37" value="View&lt;br&gt;Alarm_UIController" style="whiteSpace=wrap;html=1;rounded=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
