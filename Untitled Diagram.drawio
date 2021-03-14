@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T11:09:37.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4AhZivyDTPrXpXA2eSyM" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-14T11:19:05.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Nq0a6YQNFG2gngi8B4Gx" version="14.4.8" type="github">
   <diagram id="DGaI7L7fWnckIXQNMXlM" name="Page-1">
     <mxGraphModel dx="787" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -706,16 +706,34 @@
           <mxGeometry x="689.5" y="716.5" width="110.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6cRro7XXUoIkanzyYa3W-262" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="641.5" y="750" width="206.5" height="101" as="geometry" />
+          <mxGeometry x="641.5" y="750" width="206.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6cRro7XXUoIkanzyYa3W-264" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="641.5" y="892" width="206.5" height="101" as="geometry" />
+          <mxGeometry x="641.5" y="830" width="206.5" height="163" as="geometry" />
         </mxCell>
-        <mxCell id="6cRro7XXUoIkanzyYa3W-265" value="Table" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="645.5" y="780" width="198.5" height="20" as="geometry" />
+        <mxCell id="6cRro7XXUoIkanzyYa3W-265" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="645.5" y="773" width="198.5" height="37" as="geometry" />
         </mxCell>
         <mxCell id="6cRro7XXUoIkanzyYa3W-266" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/healthy-life-4/64/sleep-bed-hotel-night-hostel-wellness-slumber-furniture_and_household-sleepy-zzz-sleeping-holidays-128.png;strokeColor=#CCCC00;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
           <mxGeometry x="645.5" y="753" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-267" value="Sleep |" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;opacity=70;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="665" y="752" width="35" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-268" value="Wake Up" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;opacity=70;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="752" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-269" value="6:20" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="650" y="780" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-270" value="AM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="682" y="780" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-271" value="Tomorrow Afternoon" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#000000;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="650" y="796.25" width="118" height="10.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6cRro7XXUoIkanzyYa3W-272" value="&lt;u style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;Change&lt;/b&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;fontSize=11;fontColor=#CCCC00;" vertex="1" parent="1">
+          <mxGeometry x="778" y="783" width="64" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
