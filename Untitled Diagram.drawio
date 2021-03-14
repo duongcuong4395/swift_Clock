@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T15:10:42.360Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="u-B5wcDF6DmCrDF0agkJ" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-14T15:20:11.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ZVyrtBBHsKydZ-NBfaBE" version="14.4.8" type="github">
   <diagram id="DGaI7L7fWnckIXQNMXlM" name="Page-1">
     <mxGraphModel dx="656" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -909,16 +909,16 @@
           <mxGeometry x="891" y="973.37" width="210" height="149.12" as="geometry" />
         </mxCell>
         <mxCell id="P66LRkWNkZdC_BWVoiuC-64" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;opacity=70;align=center;" vertex="1" parent="1">
-          <mxGeometry x="891" y="940" width="210.5" height="29" as="geometry" />
+          <mxGeometry x="891" y="950" width="210.5" height="19" as="geometry" />
         </mxCell>
         <mxCell id="P66LRkWNkZdC_BWVoiuC-65" value="&lt;u style=&quot;font-size: 12px&quot;&gt;Cancel&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;fontSize=12;fontColor=#CCCC00;" vertex="1" parent="1">
-          <mxGeometry x="901.5" y="944.5" width="39.5" height="20" as="geometry" />
+          <mxGeometry x="901.5" y="949" width="39.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P66LRkWNkZdC_BWVoiuC-66" value="&lt;u style=&quot;font-size: 12px;&quot;&gt;Save&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;fontSize=12;fontColor=#CCCC00;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1051" y="944.5" width="40.5" height="20" as="geometry" />
+          <mxGeometry x="1051" y="949" width="40.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P66LRkWNkZdC_BWVoiuC-67" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Edit Alarm&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;opacity=70;" vertex="1" parent="1">
-          <mxGeometry x="941" y="944" width="110.5" height="20" as="geometry" />
+          <mxGeometry x="941" y="949" width="110.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="P66LRkWNkZdC_BWVoiuC-68" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="897" y="975.75" width="197" height="36.74" as="geometry" />
@@ -999,6 +999,84 @@
         </mxCell>
         <mxCell id="P66LRkWNkZdC_BWVoiuC-93" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7ui.onOffButton;buttonState=off;strokeColor=#38D145;strokeColor2=#aaaaaa;fillColor=#38D145;fillColor2=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1134" y="1068.78" width="19.5" height="4.14" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-104" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="935" width="180" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-105" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;opacity=70;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="910" width="181" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-106" value="&lt;u style=&quot;font-size: 10px&quot;&gt;Back&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;fontSize=10;fontColor=#CCCC00;" vertex="1" parent="1">
+          <mxGeometry x="1252" y="910" width="39" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-107" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;Repeat&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="909.5" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-108" value="&lt;span style=&quot;font-size: 10px&quot;&gt;&amp;lt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=70;fontSize=10;fontColor=#CCCC00;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="910.5" width="18" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-109" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="942" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-110" value="Every Sunday" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="942" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-111" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="962" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-115" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fatcow/32x32/tick.png;strokeColor=#000000;fillColor=#FFFFFF;fontSize=10;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="942" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-116" value="Every Monday" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="961.38" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-117" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fatcow/32x32/tick.png;strokeColor=#000000;fillColor=#FFFFFF;fontSize=10;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="962" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-118" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="982.76" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-119" value="Every Tuesday" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="982.14" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-120" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fatcow/32x32/tick.png;strokeColor=#000000;fillColor=#FFFFFF;fontSize=10;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="982.76" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-121" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="1003.51" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-122" value="Every Wednesday" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="1002.89" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-123" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fatcow/32x32/tick.png;strokeColor=#000000;fillColor=#FFFFFF;fontSize=10;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="1003.51" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-133" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="1065.02" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-134" value="Every Saturday" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="1064.4" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-135" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fatcow/32x32/tick.png;strokeColor=#000000;fillColor=#FFFFFF;fontSize=10;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="1065.02" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-136" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="1044.27" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-137" value="Every Friday" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="1043.65" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-138" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fatcow/32x32/tick.png;strokeColor=#000000;fillColor=#FFFFFF;fontSize=10;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="1044.27" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-139" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242" y="1023.51" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-140" value="Every Thursday" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="1022.89" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P66LRkWNkZdC_BWVoiuC-141" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/fatcow/32x32/tick.png;strokeColor=#000000;fillColor=#FFFFFF;fontSize=10;fontColor=#000000;opacity=70;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="1023.51" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
